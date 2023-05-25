@@ -9,6 +9,7 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="custom.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
@@ -17,7 +18,22 @@
       <a href="/page2.html">Other page</a>
     </nav>
     <main>
-      <h1>Home page</h1>
+      <h1>Home <em>big</em> page</h1>
+      <mytag>This is inside mytag</mytag><br />
+      <mytag class="warning">This is a warning</mytag>
+      <div class="warning">This is not the way to do it.</div>
+      <div>This is the way to do it.</div>
+      <div id="special">This one is special</div>
+
+      <pml-planet>Venus</pml-planet>
+      <pml-planet moons="1">Earth</pml-planet>
+      <div>
+      <a href="https://www.w3.org/" title="W3C Home">W3C</a><br />
+      <a href="https://developer.mozilla.org" title="Mozilla Developer Network"
+        >Standards Info</a
+      ><br />
+      <a href="http://www.example.org/" title="W3C Home">confused.link</a>
+      </div>
     </main>
   </body>
 </html>

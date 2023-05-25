@@ -1,0 +1,39 @@
+h1 {
+  display: block;
+  color: red;
+}
+
+em {
+  display: inline;
+  color: blue;
+}
+
+mytag {
+  color: purple;
+  font: 18px Helvetica;
+  background: aqua;
+}
+
+mytag.warning {
+  color: rgb(97, 79, 160);
+  background: rgb(148, 88, 88);
+}
+
+.warning {
+  color: red;
+}
+
+* {
+  font-weight: bold;
+}
+
+#special {
+  color: coral;
+}
+
+pml-planet[moons] {
+  outline: 3px solid;
+  font-style: italic;
+}
+
+a[href="https://www.w3.org/"][title="W3C Home"] {font-size: 200%;}
