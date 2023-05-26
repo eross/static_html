@@ -1,0 +1,9 @@
+h1 em {
+  color: gray;
+}
+
+ul li ul ol {
+  color: gray;
+}
+
+li + li {font-weight: bold; font-size: 20px;}

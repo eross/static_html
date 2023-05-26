@@ -36,4 +36,16 @@ pml-planet[moons] {
   font-style: italic;
 }
 
-a[href="https://www.w3.org/"][title="W3C Home"] {font-size: 200%;}
+a[href="https://www.w3.org/"][title="W3C Home"]
+{
+  font-size: 200%;
+}
+
+div.double {
+  padding-top: 30px;
+}
+
+foo[title~='Figure'] {
+  border: 1px solid gray;
+  display: list-item;
+}
