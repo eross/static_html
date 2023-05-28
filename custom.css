@@ -41,6 +41,9 @@ a[href="https://www.w3.org/"][title="W3C Home"]
   font-size: 200%;
 }
 
+a {
+  font-size: 100%;
+}
 div.double {
   padding-top: 30px;
 }
